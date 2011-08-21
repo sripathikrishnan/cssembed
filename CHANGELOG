@@ -1,6 +1,12 @@
 CSSEmbed
 Copyright (c) 2009-2011 Nicholas C. Zakas. All rights reserved.
 
+0.4.0
+  * Forked from http://github.com/nzakas/cssembed to http://github.com/sripathikrishnan/cssembed
+  * Migrated from Ant to Maven, Project restructured accordingly
+  * Copied CmdLineParser.java from gnu jargs. Unfortunately jargs isn't available in maven central repository
+  * Issue #32 : Fixes getImageURIString to handle images with query parameters
+
 0.3.6
   * Allow specification of maximum data URI length (tivac and fearphage)
   * Option to skip files that are missing (tivac)

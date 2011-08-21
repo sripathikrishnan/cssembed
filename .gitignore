@@ -1,3 +1,5 @@
-build/
-nbproject/
-tmp/
+target/
+.classpath
+.project
+.settings
+

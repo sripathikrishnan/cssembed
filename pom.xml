@@ -7,7 +7,13 @@
 	<name>CSS Embed</name>
 	<version>0.4.0</version>
 	<description>A tool for embedding data URIs in CSS files.</description>
-	<url>https://github.com/nzakas/cssembed</url>
+	<url>https://github.com/sripathikrishnan/cssembed</url>
+	
+	<properties>
+		<endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	
 	<licenses>
 		<license>
 			<name>The Apache Software License, Version 2.0</name>
@@ -16,14 +22,18 @@
 		</license>
 	</licenses>
 	<scm>
-		<url>https://github.com/nzakas/cssembed</url>
-		<connection>https://github.com/nzakas/cssembed</connection>
+		<url>https://github.com/sripathikrishnan/cssembed</url>
+		<connection>https://github.com/sripathikrishnan/cssembed</connection>
 	</scm>
 	<developers>
 		<developer>
 			<id>nzakas</id>
 			<name>Nicholas C. Zakas</name>
 			<url>http://www.nczonline.net/</url>
+		</developer>
+		<developer>
+			<id>sripathikrishnan</id>
+			<name>Sripathi Krishnan</name>
 		</developer>
 	</developers>
 	<dependencies>
@@ -37,6 +47,12 @@
 			<version>1.0</version>
 		</dependency>
 		 -->
+		<dependency>
+		    <groupId>org.apache.ant</groupId>
+		    <artifactId>ant</artifactId>
+		    <version>1.8.2</version>
+		    <scope>provided</scope>
+		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
@@ -63,4 +79,3 @@
 	</plugins>
 	</build>
 </project>
-
